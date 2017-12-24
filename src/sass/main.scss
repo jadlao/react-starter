@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+@import 'reset';
+@import 'variables';
+@import 'mixins';
+@import 'grid';
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  background: #e1bee7;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+.container {
+  padding: 50px;
+  text-align: center;
+}
